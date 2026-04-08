@@ -1,49 +1,100 @@
 .container{
-    background-color: antiquewhite;
-    max-width: 50%;
     max-height: 100%;
-    margin-left: 7em;
-    text-align: center;
     display: flex;
-    align-items: flex-start;
 }
 .navbar{
-    width: 200px;
-    background-color: aliceblue;
-    height: 500px;
+    width: 220px;
+    background-color: #2c3e50;
+    color: white;
+    height: 83vh;
+    text-align: center;
+    padding-top: 10px ;
 }
 .navbar a{
-    font-size: 1.75em;
-    color: black;
-    margin: 20px auto;
-    text-align: center;
-
+    color: white;
+    text-decoration: none;
 }
 ul{
     list-style: none;
+    margin:2px auto;
+    padding-left: 0%;
+    
 }
 li{
-    padding:20px 20px;
+    padding:15px 20px;
+}
+li:hover{
+    background-color: #60a5fa;
+    cursor:pointer;
+    transition:0.3s;
+}
+.hd{
+    background-color: bisque;
+    height: 60px ;
+    padding:6px;
+    margin: 15px;
+    box-sizing: border-box;
+
 }
 .main{
-    flex:1;
-    display: flex;
-    flex-direction: column;
+    flex: 1;
+    padding: 20px ;
 }
 .header{
     background: hsl(24, 13%, 80%);
-    font-size: 2em;
+    font-size: 22px;
     text-align: center;
-    padding: 10px auto;
+    padding: 15px;
     margin: 20px 20px;
-
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 .content{
-    background-color: #babbb2;
-    margin: 30px auto;
-    width:80%;
-    height: 250px;
-    
+    background-color: #e5e7eb;
+    min-height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
     
 }
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.cards{
+    display: flex;
+    gap: 100px;
+    margin: 20px 0;
+    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+    min-width: 130px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0);
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.blue{
+    background: linear-gradient(to right,#36d1dc,#5b86e5);
+}
+.red{
+    background: linear-gradient(to right,#11998e,#38ef7d);
+}
+.orange{
+    background: linear-gradient(to right,#f7971e,#ffd200);
+}
+
 
