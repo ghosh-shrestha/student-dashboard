@@ -116,7 +116,6 @@ li:hover{
 }
 .percent{
     height: 100%;
-    width: 0;
     background: linear-gradient(to right,rgb(33, 146, 164),#5b86e5);
     font-size: 12px;
     text-align: right;
